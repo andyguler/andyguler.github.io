@@ -30,29 +30,16 @@
   gap: 2rem;
   width: 34%;
   height: 100%;
-  /* border-right: 1px solid black; */
   background-color: rgb(15, 15, 49);
   color: #fff;
 }
 
-.left-section img {
-  margin-top: 1rem;
-}
-
-.personal-details {
-  /* margin: 0; */
-  padding: 0;
+.image {
   width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-  background-color: black;
-}
-
-.personal-details p {
-  margin-left: 1rem;
-  /* margin-top: 1rem; */
+  height: 40%;
+  background-image: url("./images/eu.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
 
 .right-section {
@@ -60,9 +47,8 @@
   height: 100%;
 }
 
-.profile-photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+/* .profile-photo {
+  width: 150%;
+  height: 150%;
   object-fit: cover;
-}
+} */

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid black; */
+  box-shadow: 2px 2px 8px #888888;
+  width: 695px;
+  height: 842px;
+  background-color: rgb(236, 236, 236);
+}
+
+.left-section {
+  width: 34%;
+  height: 100%;
+  border-right: 1px solid black;
+}
+
+.right-section {
+  width: 66%;
+  height: 100%;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
